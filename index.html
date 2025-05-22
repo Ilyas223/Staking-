@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Staking Token Demo</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<h1>Staking Token Demo</h1>
+
+<p><strong>Saldo Token:</strong> <span id="balance">-</span></p>
+<p><strong>Token Distake:</strong> <span id="staked">-</span></p>
+<p><strong>Reward Pending:</strong> <span id="reward">-</span></p>
+
+<label>Stake Token (masukkan jumlah):</label>
+<input type="number" id="stakeAmount" min="1" />
+<button onclick="stake()">Stake</button>
+
+<button onclick="claimReward()">Claim Reward</button>
+
+<label>Transfer Token ke User lain (simulasi):</label>
+<input type="number" id="transferAmount" min="1" placeholder="Jumlah token" />
+<input type="text" id="transferUser" placeholder="User ID tujuan" />
+<button onclick="transferToken()">Transfer</button>
+
+<div id="log"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
