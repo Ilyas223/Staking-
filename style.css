@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 20px auto;
+}
+h1 {
+  text-align: center;
+}
+label, button {
+  display: block;
+  margin-top: 10px;
+}
+input {
+  padding: 5px;
+  width: 100%;
+}
+#log {
+  background: #f0f0f0;
+  padding: 10px;
+  height: 150px;
+  overflow-y: auto;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
